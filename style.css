@@ -1,14 +1,14 @@
 h1{
     text-align: center;
     background-color: #f5f5dc;
-    padding: 5%;
+    padding: 50px;
     margin-top: 0;
     font-family: times;
     font-size: 50px;
 }
 
 img{
-    width: 15%;
+    width: 30px;
     float: right;
     margin: 10px;
 }
