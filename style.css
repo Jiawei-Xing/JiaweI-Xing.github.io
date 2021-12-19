@@ -7,10 +7,18 @@ h1{
     font-size: 50px;
 }
 
-img{
+#home img{
     width: 100px;
     float: right;
     margin: 10px;
+}
+
+#contact img{
+    width: 20px;
+}
+
+#research img{
+    width: 60%;
 }
 
 div{
