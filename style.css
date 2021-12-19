@@ -7,6 +7,12 @@ h1{
     font-size: 50px;
 }
 
+nav{
+    margin-left: 5%;
+    background-color: #f5f5dc;
+    font-family: times;
+}
+
 #home img{
     width: 100px;
     float: right;
@@ -40,6 +46,6 @@ footer{
 }
 
 button{
-    margin: 5px;
-    border-radius: 8px;
+    margin: 10px;
+    border-radius: 12px;
 }
