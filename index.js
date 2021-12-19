@@ -26,4 +26,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector("#publication_view").style.display = "none";
     document.querySelector("#contact_view").style.display = "block";
   }; 
-)};  
+});  
