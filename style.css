@@ -27,7 +27,7 @@ nav{
 
 #research_view img{
     width: 60%;
-    text-align: center;
+    class: center;
 }
 
 div{
