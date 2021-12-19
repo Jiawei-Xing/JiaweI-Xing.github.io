@@ -13,18 +13,19 @@ nav{
     font-family: times;
 }
 
-#home img{
+#home_view img{
     width: 100px;
     float: right;
     margin: 10px;
 }
 
-#contact img{
+#contact_view img{
     width: 20px;
 }
 
-#research img{
+#research_view img{
     width: 60%;
+    text-align: center;
 }
 
 div{
