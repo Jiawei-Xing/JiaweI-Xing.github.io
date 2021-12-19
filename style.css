@@ -12,6 +12,7 @@ nav{
     background-color: #f5f5dc;
     font-family: times;
     font-size: 20px;
+    overflow: hidden;
 }
 
 #home_view img{
