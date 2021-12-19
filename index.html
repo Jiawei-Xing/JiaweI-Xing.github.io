@@ -6,11 +6,33 @@
             Jiawei Xing
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <button id="home">Home</button>
+                </li>
+                <li class="nav-item">
+                    <button id="research">Research</button>
+                </li>
+                <li class="nav-item">
+                    <button id="publication">Publication</button>
+                </li>
+                <li class="nav-item">
+                    <button id="service">Service</button>
+                </li>
+                <li class="nav-item">
+                    <button id="contact">Contact</button>
+                </li>
+            </ul>  
+        </nav>
+        
         <h1>Jiawei Xing</h1>
-        <div>
+        <div id="home_view">
         <h3>About Me</h3>
         <img src="jiaweixing.jpg">
         <p>Hello, my name is Jiawei Xing. I'm currently a PhD candidate at The Ohio State University. In <a href="https://u.osu.edu/zhulinlab/">Dr. Igor Jouline lab</a>, I use computational methods to study protein structures and evolution. My current research topic focuses on the most common sensor, Per-Arnt-Sim (PAS) domain, in signal transduction systems.</p>
@@ -26,18 +48,13 @@
             <li>GPA: 3.92/4.0</li>
         </ul>
         <hr>
-        <h3>Research Background</h3>
+        <h3>Research Experiences</h3>
         <p><b>2021.1 - present: Graduate research assistant at The Ohio State University</b></p>
         <ul>
             <li>Advisor: Dr. Igor Jouline</li>
             <li>Understanding protein structures and evolution using phylogenetic analyses, biological networks, clustering algorithms, and hidden Markov models</li>
             <li>Studying ligand-protein interactions using molecular docking and virtual ligand screening</li>
             <li>Developing computational tools for bioinformatic analysis</li>
-        </ul>
-        <p><b>2019.8 - 2020.12: Graduate teaching assistant at The Ohio State University</b></p>
-        <ul>
-            <li>Professor: Dr. Mette Ibba</li>
-            <li>Labs for Basic and Practical Microbiology</li>
         </ul>
         <p><b>2018.11 - 2019.4: Undergraduate thesis at Institute of Microbiology, Chinese Academy of Sciences</b></p>
         <ul>
@@ -61,10 +78,65 @@
             <li>Novel surface display systems on <i>Saccharomyces cerevisiae</i></li>
         </ul>
         <hr>
+        <h3>Teaching Experience</h3>
+        <p><b>2019.8 - 2020.12: Graduate teaching assistant at The Ohio State University</b></p>
+        <ul>
+            <li>Professor: Dr. Mette Ibba</li>
+            <li>Labs for Basic and Practical Microbiology</li>
+        </ul>
+        <hr>
+        <h3>Poster and Presentations</h3>
+        <ul>
+            <li>2022 Sensory Transduction in Microorganisms Conference GRC. Ventura, CA. Jan 2022</li>
+            <li>Microbiology student seminar. Columbus, OH. Jan 2022</li>
+            <li>Bacterial Locomotion and Signal Transduction (BLAST) Conference. Online. Jan 2021</li>
+            <li>2018 Annual Symposium for the Undergraduate Students of Bio-Liyun, Beijing Normal University. Beijing, China. March 2018</li>
+            <li>2017 International Genetically Engineered Machine (iGEM) Competition. Boston, MA. Nov 2017</li>
+        </ul>
+        <hr>
+        <h3>Skills</h3>
+        <ul>
+            <li>Bioinformatics: sequence alignment, sequence conservation, sequence similarity networks, clustering algorithms, phylogenetic trees, protein structure, molecular docking, virtual ligand screening, hidden Markov models</li>
+            <li>Programming languages: Python, C, R, Bash, JavaScript, SQL</li>
+            <li>Web development: Flask, Django, HTML, CSS, JavaScript, SQL, API</li>
+            <li>Machine learning: in progress</li>
+        </ul>
+        <hr>
         <h3>Certificates</h3>
         <ul>
             <li><a href="https://certificates.cs50.io/9d7c9992-4670-4f92-a0e8-2be91f3391e2">CS50x: Introduction to Computer Science</a></li>
         </ul>
+        </div>
+            
+        <div id="research_view">
+            <h3>Evolution and structure of sensory domains</h3>
+            <p>Protein domains are the functional units of proteins which can fold and evolve independently. Sensory domains function as signal sensors in signal transduction systems. They play important roles in bacterial virulence and human diseases.</p> 
+            <img src="signal transduction.png">
+            <p>Signal transduction systems in bacteria</p>
+            <p>Per-Arnt-Ser (PAS) domains are the most ubiquitous sensory domains throughout the tree of life. They have versatile functions include signal sensing, signal transduction, protein-protein interaction, and cellular localization. Using computational and phylogenetic methods, I'm interested in how this domain family recognize different ligands and cofactors.
+            <p>I'm also interested in other sensory domains including Cache domain and GAF domains.</p>
+            <h3>Development of bioinformatic tools</h3>
+            <ul>
+                <li>Bacterial Taxonomy Search tool <a href="https://github.com/Jiawei-Xing/CS50x/tree/main/project">Github</a> <a href="https://youtu.be/gtBoyAvMesg">Video instruction</a></li>
+                <li>Webpage Generator</li>
+            </ul>
+        </div>
+        
+        <div id="publication_view">
+            <p>In preparation. Coming soon...</p>
+        </div>
+        
+        <div id="contact_view">
+            <a href="https://www.linkedin.com/in/jiawei-xing-ba2a35168/"><img src="linkedin.png"></a>
+            <a href="https://github.com/Jiawei-Xing"><img src="github.png"></a>
+            <a href="https://www.zhihu.com/people/xing-jia-wei-54-70"><img src="zhihu.png"></a>
+            <a href="https://www.youtube.com/channel/UC5WtnozEZNdNQbgLejgpURg"><img src="youtube.png"></a>
+            <a href="https://twitter.com/jiawei_xing"><img src="twitter.png"></a>
+            <p>Email: xing.232@osu.edu</p>
+            <p><a href="https://u.osu.edu/zhulinlab/">Zhulin lab</a></p>
+            <p>Address: <br>
+               Department of Microbiology, The Ohio State University<br>
+               318 W. 12th Avenue, Columbus, OH 43210</p>
         </div>
     </body>
     <footer>
