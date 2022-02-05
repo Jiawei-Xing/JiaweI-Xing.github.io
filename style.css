@@ -37,11 +37,12 @@ nav{
     class: center;
 }
 
-div{
+.section{
     margin-left: 5%;
     margin-right: 5%;
     line-height: 1.6;
     font-size: 20px;
+    font-family: times;
 }
 
 footer{
