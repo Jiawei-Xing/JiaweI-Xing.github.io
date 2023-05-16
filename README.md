@@ -1,2 +1,2 @@
-## JiaweI-Xing.github.io
+## Jiawei-Xing.github.io
 My webpage
